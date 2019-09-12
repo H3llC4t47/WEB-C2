@@ -1,0 +1,83 @@
+body {
+    background-image: url("mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.692);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.start {
+    color:rgb(157, 158, 158);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 200px;
+    display: block;
+    width: 200px; 
+    float: left;  
+}
+#menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.links {
+    float: right;
+    word-spacing: 20pt;
+    position: relative;
+    right: 220px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+ul, li {
+    display: inline;
+    color:rgb(157, 158, 158);
+    
+
+}
+
+li {
+    margin-left: 10px;
+    text-decoration: none;
+}
+.main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10pt;
+    font-size: 60pt;
+    margin: 0;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: grey;
+}
+.contenttext {
+    color:rgb(157, 158, 158);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blue-button {
+    background-color: rgba(5, 235, 223, 0.76);
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius:5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#content {
+   text-align: center;
+   margin-top: 19%;
+
+}
