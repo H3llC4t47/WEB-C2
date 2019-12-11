@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100%;
+    min-height: 100%;
+    background: red;
+}
+#board{
+    width: 770px;
+    height: 650px;
+    padding: 25px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#board div{
+	width:100px;
+	height:100px;
+	float:left;
+	margin:10px;
+	padding:25px;
+	font-size:24px;
+	cursor:pointer;
+    text-align:center;
+    font-weight: bold;
+    background: white;
+}
