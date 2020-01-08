@@ -1,0 +1,44 @@
+<div style="text-align: center">
+
+    <h1> Kalkulačka <h1>
+
+        <div class="space">
+
+        </div>
+
+        <br>
+
+        <button class="plus" (click)="plus()">+</button>
+        <button class="minus" (click)="minus()">-</button>
+        <button class="krat" (click)="krat()">*</button>
+        <button class="deleno" (click)="deleno()">:</button>
+        <button class="rovnase" (click)="rovnase()">=</button>
+
+        <br>
+
+        <button (click)="addnumber(1)">1</button>
+        <button (click)="addnumber(1)">2</button>
+        <button (click)="addnumber(1)">3</button>
+
+        <br>
+
+        <button (click)="addnumber(1)">4</button>
+        <button (click)="addnumber(1)">5</button>
+        <button (click)="addnumber(1)">6</button>
+
+        <br>
+
+        <button (click)="addnumber(1)">7</button>
+        <button (click)="addnumber(1)">8</button>
+        <button (click)="addnumber(1)">9</button>
+        
+
+        <br>
+
+        <div class="vysledek">
+            Výsledek: {{num}}
+        </div>
+
+        <br>
+
+    </div>
