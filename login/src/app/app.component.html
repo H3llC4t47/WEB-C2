@@ -1,0 +1,35 @@
+<div class="body">
+    <div *ngIf="login === false" class="formular">
+    <div class="nadpis">
+      Welcome
+    </div>
+    
+    <form>
+      <div class="a">
+        Username
+      </div>
+      <div>
+      <input type="text" name="username" [(ngModel)]="username" placeholder="Enter username"/>
+      </div>
+      <div class="pass">
+        Password
+      </div>
+      <div>
+      <input type="password" name="password" [(ngModel)]="password" placeholder="Enter password"/>
+      </div>
+    </form>
+    
+    <button (click)="clickedButton()">Log in</button>
+    
+    <div class="alert2">
+      {{ alert2 }}
+    </div>  
+    </div>
+    
+    <div *ngIf="login === true" class="alert1">
+      {{ alert1 }}
+    </div>
+    
+    <button *ngIf="login === true" (click)="backButton()">Log out</button>
+    
+    </div>
