@@ -1,0 +1,11 @@
+.modal {
+    text-align: center;   
+}
+
+.button {
+    background-color: rgb(4, 133, 255);
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+    border: none;
+}
